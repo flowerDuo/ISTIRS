@@ -20,7 +20,14 @@
  - 软件内附有详细使用说明文档。
 
 ## 软件部分截图
-
+<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image004.png" width="250" /> &nbsp;
+<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image008.png" width="250" /> &nbsp;
+<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image024.png" width="250" /> <br/>
+<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image025.gif" width="250" /> &nbsp;
+<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image027.gif" width="250" /> &nbsp;
+<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image029.gif" width="250" /> <br/>
+<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image036.png" width="250" /> &nbsp;
+<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image038.png" width="250" /> &nbsp;
 ## 算法支持
 
 软件使用最新提出的图像拼接方法(OP-GSP)  为软件的图像拼接功能提供核心支持。算法在图像畸变以及错位方面均优于 AutoStitch，同时比原始 GSP 图像对齐能力和鲁棒性更强。  
