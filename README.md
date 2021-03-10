@@ -21,9 +21,9 @@
 
 ## 软件部分截图
 <img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image004.png" width="250" /> &nbsp;
-<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image008.png" width="250" /> &nbsp;
-<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image024.png" width="250" /> <br/>
-<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image025.gif" width="250" /> &nbsp;
+<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image008.png" width="250" /> <br/>
+<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image024.png" width="250" /> &nbsp;
+<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image025.gif" width="250" /> <br/>
 <img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image027.gif" width="250" /> &nbsp;
 <img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image029.gif" width="250" /> <br/>
 <img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image036.png" width="250" /> &nbsp;
