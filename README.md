@@ -1,4 +1,4 @@
-中文 | [English](https://github.com/alibaba/kiwi/blob/master/README-en.md)
+中文 | [English](https://github.com/flowerDuo/ISTIRS/blob/main/README-en.md)
 
 # 无人机农田热红外遥感图像拼接软件
 
