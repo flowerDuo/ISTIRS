@@ -1,4 +1,4 @@
-[中文](https://github.com/flowerDuo/ISTIRS/blob/main/README-ch.md)  | English
+English | [中文](https://github.com/flowerDuo/ISTIRS/blob/main/README-ch.md)
 
 # Image Stitching for UAV Thermal Infrared Remote Sensing
 
