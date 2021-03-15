@@ -2,11 +2,17 @@
 
 # 无人机农田热红外遥感图像拼接软件
 
-此为用于无人机热红外遥感图像拼接的软件， 软件界面简洁， 功能丰富， 易于操作。<br/>
-软件荣获“华为杯”第二届中国研究生人工智能创新大赛 三等奖。
+* 此为用于无人机热红外遥感图像拼接的软件， 软件界面简洁， 功能丰富， 易于操作。
+* 软件荣获“华为杯”第二届中国研究生人工智能创新大赛 三等奖。
 
-软件下载地址： 链接：https://pan.baidu.com/s/1tHy-X8XmXdL3fa7fCF37FA <br/>
-							提取码：msne
+## 下载
+
+* 软件下载地址：<br/> 链接：https://pan.baidu.com/s/1tHy-X8XmXdL3fa7fCF37FA <br/>
+  							提取码：msne   <br/>
+
+* 数据集下载地址：<br/>链接：https://pan.baidu.com/s/18IPa8ngPdkXrlCSEwhpdAQ <br/>
+  							  提取码：imxv 
+  * 注：提供的数据集无人机飞行参数：无人机飞行高度：120 m，相机像元大小：17 µm。图像划分网格大小建议为 40x40。
 
 ## 软件使用流程
 
@@ -20,6 +26,60 @@
  - 软件会缓存重要的拼接过程数据，方便科研人员进行相关工作。
  - 软件提供中、英两个版本。
  - 软件内附有详细使用说明文档。
+
+## 运行结果展示
+
+* 结果对比
+
+  <table>
+    <tr>
+      <th>Pix4Dmapper</th>
+      <th>PTGui</th> 
+      <th>AutoStitch</th>
+    </tr>
+    <tr>
+      <td width="33%"><img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/datas/Pix4Dmapper.png"/></td>
+      <td width="33%"><img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/datas/PTGui.png"/></td> 
+      <td width="33%"><img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/datas/AutoStitch.png"/></td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <th>GSP</th>
+      <th>Our</th> 
+    </tr>
+    <tr>
+      <td width="33%"><img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/datas/GSP.png"/></td>
+      <td width="33%"><img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/datas/Ours.png"/></td> 
+    </tr>
+  </table>
+
+* 调试数据
+
+  <table>
+    <tr>
+      <th>某对图像特征点对</th>
+      <th>某张图像变形结果</th> 
+      <th>某张图像线段提取结果</th>
+    </tr>
+    <tr>
+      <td width="33%"><img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/datas/Ransac_pair.jpg"/></td>
+      <td width="33%"><img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/datas/Single_wrap.png"/></td> 
+      <td width="33%"><img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/datas/line-result.jpg"/></td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <th>边框</th>
+      <th>网格</th> 
+    </tr>
+    <tr>
+      <td width="33%"><img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/datas/f01-%5BOP_GSP_Border%5D.png"/></td>
+      <td width="33%"><img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/datas/f01-%5BOP_GSP_Mesh%5D.png"/></td> 
+    </tr>
+  </table>
 
 ## 软件部分截图
 
@@ -36,19 +96,29 @@
 
 ## 算法支持
 
-软件使用最新提出的图像拼接方法(OP-GSP)  为软件的图像拼接功能提供核心支持。算法在图像畸变以及错位方面均优于 AutoStitch，同时比原始 GSP 图像对齐能力和鲁棒性更强。 论文已发表于IEEE Jstars。
+软件使用最新提出的图像拼接方法(OP-GSP)  为软件的图像拼接功能提供核心支持。算法在图像畸变以及错位方面均优于 AutoStitch(IJCV 2007)，同时比原始 NISwGSP(ECCV 2016)图像对齐能力和鲁棒性更强。 论文已发表于IEEE Jstars。
 
-论文：Jiguang Cui, Man Liu, Zhitao Zhang, Shuqin Yang, Jifeng Ning*. Robust UAV Thermal Infrared Remote Sensing Images Stitching Via Overlap Prior Based Global Similarity Prior Model, IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing （IEEE Jstars）. vol. 14, pp. 270-282, 2021.
+* 论文：Jiguang Cui, Man Liu, Zhitao Zhang, Shuqin Yang, Jifeng Ning*. Robust UAV Thermal Infrared Remote Sensing Images Stitching Via Overlap Prior Based Global Similarity Prior Model, IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing （IEEE Jstars）. vol. 14, pp. 270-282, 2021.
 
-论文链接：https://doi.org/10.1109/JSTARS.2020.3032011
+* 论文链接：https://doi.org/10.1109/JSTARS.2020.3032011
 
-## 数据集
+## 引用
 
-我们提供大量的农田热红外遥感图像数据供用户体验、测试。
+ 如果您使用我们工作中的任何代码或数据，请引用我们的论文。
 
-数据集下载地址：链接：https://pan.baidu.com/s/18IPa8ngPdkXrlCSEwhpdAQ <br/>
-							  提取码：imxv <br/>
-注：提供的数据集无人机飞行参数：无人机飞行高度：120 m，相机像元大小：17 µm。图像划分网格大小建议为 40x40。
+* J. Cui, M. Liu, Z. Zhang, S. Yang and J. Ning, "Robust UAV Thermal Infrared Remote Sensing Images Stitching Via Overlap-Prior-Based Global Similarity Prior Model," in *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, vol. 14, pp. 270-282, 2021, doi: 10.1109/JSTARS.2020.3032011.
+
+* ```
+  @ARTICLE{9229104,
+    author={J. {Cui} and M. {Liu} and Z. {Zhang} and S. {Yang} and J. {Ning}},
+    journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+    title={Robust UAV Thermal Infrared Remote Sensing Images Stitching Via Overlap-Prior-Based Global Similarity Prior Model}, 
+    year={2021},
+    volume={14},
+    number={},
+    pages={270-282},
+    doi={10.1109/JSTARS.2020.3032011}}
+  ```
 
 ## 开发团队
 
@@ -56,5 +126,6 @@
 
 ## 联系我们
 
-njf@nwsuaf.edu.cn <br/> zhitaozhang@126.com 
+如果有什么问题，请联系我们吧！
 
+njf@nwsuaf.edu.cn <br/> zhitaozhang@126.com 
