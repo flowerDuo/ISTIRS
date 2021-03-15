@@ -129,7 +129,7 @@
 
 ## 引用
 
- 如果您使用我们工作中的任何代码或数据，请引用我们的论文。
+ 如果您使用我们工作中的任何软件或数据，请引用我们的论文。
 
 * J. Cui, M. Liu, Z. Zhang, S. Yang and J. Ning, "Robust UAV Thermal Infrared Remote Sensing Images Stitching Via Overlap-Prior-Based Global Similarity Prior Model," in *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, vol. 14, pp. 270-282, 2021, doi: 10.1109/JSTARS.2020.3032011.
 
