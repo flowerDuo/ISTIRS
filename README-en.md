@@ -11,9 +11,7 @@
   										Password：msne
 
 * Data set：URL：https://pan.baidu.com/s/18IPa8ngPdkXrlCSEwhpdAQ <br/>
-
-  ​				  Password：imxv 
-
+            Password：imxv 
   * Note: The UAV flight parameters of this data set : UAV altitude: 120 m, Camera pixel size: 17 µm. The recommended image grid size: 40x40 .
 
 ## Guide
