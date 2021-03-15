@@ -154,3 +154,7 @@ Feel free to contact us if there is any question!
 
 njf@nwsuaf.edu.cn <br/> zhitaozhang@126.com 
 
+## Statement
+The software and data set of this project are only used for academic research, do not use for commercial purposes!
+To reprint or quote the content of this website and software , please indicate this website address:https://github.com/flowerDuo/ISTIRS
+This software and the core algorithm has applied for software copyright, please use legally!
