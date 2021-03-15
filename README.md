@@ -155,3 +155,8 @@
 如果有什么问题，请联系我们吧！
 
 njf@nwsuaf.edu.cn <br/> zhitaozhang@126.com 
+
+## 版权与声明
+* 本项目软件与数据集仅用于学术交流，请勿用做商业用途！
+* 转载或引用本网站内容以及软件，须注明此网址：https://github.com/flowerDuo/ISTIRS
+* 本软件以及核心算法已申请软件著作权，请合法使用！
