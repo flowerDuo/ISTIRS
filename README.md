@@ -119,6 +119,7 @@
     <td width="45%"><img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image038.png"/></td>
   </tr>
 </table>
+
 ## 算法支持
 
 软件使用最新提出的图像拼接方法(OP-GSP)  为软件的图像拼接功能提供核心支持。算法在图像畸变以及错位方面均优于 AutoStitch(IJCV 2007)，同时比原始 NISwGSP(ECCV 2016)图像对齐能力和鲁棒性更强。 论文已发表于IEEE Jstars。
