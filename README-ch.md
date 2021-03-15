@@ -1,4 +1,4 @@
-中文 | [English](https://github.com/flowerDuo/ISTIRS/blob/main/README.md)
+[English](https://github.com/flowerDuo/ISTIRS/blob/main/README.md) | 中文 
 
 # 无人机农田热红外遥感图像拼接软件
 
