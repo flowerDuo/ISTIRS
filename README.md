@@ -1,4 +1,4 @@
-[中文](https://github.com/flowerDuo/ISTIRS/blob/main/README.md)  | English
+[中文](https://github.com/flowerDuo/ISTIRS/blob/main/README-ch.md)  | English
 
 # Image Stitching for UAV Thermal Infrared Remote Sensing
 
@@ -155,6 +155,5 @@ Feel free to contact us if there is any question!
 njf@nwsuaf.edu.cn <br/> zhitaozhang@126.com 
 
 ## Statement
-* The software and data set of this project are only used for academic research, do not use for commercial purposes!
+* The software and data set of this project are only used for academic research,if you have interest in our software or require any further information, please do not hesitate to contact us!
 * To reprint or quote the content of this website and software , please indicate this website address:https://github.com/flowerDuo/ISTIRS
-* This software and the core algorithm has applied for software copyright, please use legally!
