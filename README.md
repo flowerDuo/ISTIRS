@@ -7,11 +7,11 @@
 
 ## 下载
 
-* 软件下载地址：<br/> 链接：https://pan.baidu.com/s/1tHy-X8XmXdL3fa7fCF37FA <br/>
-  							提取码：msne   <br/>
+* 软件下载地址： 链接：https://pan.baidu.com/s/1tHy-X8XmXdL3fa7fCF37FA <br/>
+  	提取码：msne   <br/>
 
-* 数据集下载地址：<br/>链接：https://pan.baidu.com/s/18IPa8ngPdkXrlCSEwhpdAQ <br/>
-  							  提取码：imxv 
+* 数据集下载地址：链接：https://pan.baidu.com/s/18IPa8ngPdkXrlCSEwhpdAQ <br/>
+   提取码：imxv <br/>
   * 注：提供的数据集无人机飞行参数：无人机飞行高度：120 m，相机像元大小：17 µm。图像划分网格大小建议为 40x40。
 
 ## 软件使用流程
@@ -44,6 +44,7 @@
     </tr>
   </table>
 
+
   <table>
     <tr>
       <th>GSP</th>
@@ -70,6 +71,7 @@
     </tr>
   </table>
 
+
   <table>
     <tr>
       <th>边框</th>
@@ -83,17 +85,40 @@
 
 ## 软件部分截图
 
-<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image004.png" width="250" /> &nbsp;
-<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image008.png" width="250" /> <br/>
-<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image024.png" width="250" /> &nbsp;
-<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image025.gif" width="250" /> <br/>
-<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/CH/image027.gif" width="250" /> &nbsp;
-<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/CH/image029.gif" width="250" /> <br/>
-<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/CH/image034.png" width="250" /> &nbsp;
-<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/CH/image036.png" width="250" />  <br/>
-<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/CH/image042.png" width="250" /> &nbsp;
-<img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image038.png" width="250" /> <br/>
+<table>
+  <tr>
+    <td width="45%"><img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image004.png"/></td>
+    <td width="45%"><img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image008.png"/></td>
+  </tr>
+</table>
 
+<table>
+  <tr>
+    <td width="45%"><img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image024.png"/></td>
+    <td width="45%"><img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image025.gif"/></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="45%"><img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/CH/image027.gif"/></td>
+    <td width="45%"><img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/CH/image029.gif"/></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="45%"><img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/CH/image034.png"/></td>
+    <td width="45%"><img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/CH/image036.png"/></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="45%"><img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/CH/image042.png"/></td>
+    <td width="45%"><img src="https://github.com/flowerDuo/ISTIRS/blob/main/imgs/image038.png"/></td>
+  </tr>
+</table>
 ## 算法支持
 
 软件使用最新提出的图像拼接方法(OP-GSP)  为软件的图像拼接功能提供核心支持。算法在图像畸变以及错位方面均优于 AutoStitch(IJCV 2007)，同时比原始 NISwGSP(ECCV 2016)图像对齐能力和鲁棒性更强。 论文已发表于IEEE Jstars。
