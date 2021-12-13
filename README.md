@@ -150,8 +150,8 @@ Northwest A&F University - Agricultural Hydrological Remote Sensing Research Gro
 
 ## Contact us
 
-Feel free to contact us if there is any question!
-
+Feel free to contact us if there is any question!<br/>
+QQ group:586327000<br/>
 njf@nwsuaf.edu.cn <br/> zhitaozhang@126.com 
 
 ## Statement
